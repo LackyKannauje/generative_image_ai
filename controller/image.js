@@ -1,6 +1,7 @@
 const axios = require('axios');
 require("dotenv").config();
 
+
 const ai_api = process.env.AI_API_KEY;
 
 async function handleTextToImage(data) {
